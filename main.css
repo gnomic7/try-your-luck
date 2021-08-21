@@ -12,11 +12,29 @@ table > td {
   min-width: 1.2rem;
 }
 
+.networths {
+  font-size: 2rem;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .btn-group button {
+  flex: auto;
   background-color: #04AA6D; /* Green background */
   border: 1px solid green; /* Green border */
   color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
+  padding: 30px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
 }
