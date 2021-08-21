@@ -1,9 +1,10 @@
 body {
-  text-align: center;
-  background-color: rgb(18, 58, 58);
+  margin: auto;
+  background-color: rgb(2, 14, 14);
 }
 
 button {
+  width: auto;
   -webkit-appearance: none;
   border: 1rem;
   border-radius: 10px;
