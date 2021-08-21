@@ -1,11 +1,38 @@
 body {
   margin: auto;
-  background-color: rgb(2, 14, 14);
+  background-color: rgb(37, 80, 80);
+}
+table {
+  border: 1px solid;
+}
+table  tr {
+  border: 1px solid;
+}
+table > td {
+  min-width: 1.2rem;
 }
 
-button {
-  width: auto;
-  -webkit-appearance: none;
-  border: 1rem;
-  border-radius: 10px;
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
 }
