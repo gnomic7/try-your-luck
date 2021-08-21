@@ -5,7 +5,7 @@ body {
 table {
   border: 1px solid;
 }
-table  tr {
+table tr {
   border: 1px solid;
 }
 table > td {
@@ -21,7 +21,7 @@ table > td {
   margin: auto;
   display: flex;
   justify-content: center;
-  align-items:center
+  align-items: center;
 }
 
 .container {
@@ -29,14 +29,22 @@ table > td {
   flex-direction: row;
 }
 
+button.reload {
+  background-color: #04aa6d; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer; /* Pointer/hand icon */
+}
+
 .btn-group button {
   flex: auto;
-  background-color: #04AA6D; /* Green background */
+  background-color: #04aa6d; /* Green background */
   border: 1px solid green; /* Green border */
   color: white; /* White text */
   padding: 30px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
 }
 
 .btn-group button:not(:last-child) {
@@ -45,7 +53,7 @@ table > td {
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
