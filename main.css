@@ -1,8 +1,10 @@
 body {
-  background-color: aqua;
+  text-align: center;
+  background-color: rgb(18, 58, 58);
 }
 
 button {
+  -webkit-appearance: none;
   border: 1rem;
   border-radius: 10px;
 }
